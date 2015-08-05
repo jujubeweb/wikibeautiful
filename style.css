@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,300italic,300,700,700italic|Noto+Serif:400,400italic,700,700italic);
+
+* {font-family:'Lato',arial,sans-serif}
+
+body {
+    font-size:1.02em;
+    background-color: white;
+}
+
+h1#firstHeading {
+    font-family: 'Lato',arial,sans-serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    border-bottom: 1px solid lightgray;
+}
+
+#mw-content-text p, #mw-content-text a, #mw-content-text b {
+    font-family:'Noto Serif',arial,serif;
+}
+
+sup.reference, sup {
+    display:none;
+}
+
+.mw-body h2 {
+    border-bottom:0;
+    font-weight:400;
+    font-size:1.6em;
+    padding-bottom:10px
+
+}
+
+#mw-content-text p {
+    line-height:1.8;
+}
+
+#mw-content-text p a {
+    color:inherit;
+    border-bottom:1px solid darkgray;
+    text-decoration:none;
+    -webkit-transition:border .1s;
+}
+
+div.hatnote {
+    font-style:initial;
+    border-left:5px solid whitesmoke;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.hatnote a {
+    font-family:'Lato',arial,sans-serif !important;
+}
+
+#mw-content-text p a:hover {
+    border-color:blue;
+}
+
+.vcard * {
+    font-family:'Lato',arial,sans-serif !important
+}
+
+.vcard {
+    font-size:1.01em;
+    padding-left:15px;
+    border-radius:3px;
+    margin-bottom:20px;
+    border-top:2px solid #0645ad;
+}
+
+#toc, .toc {
+    padding:10px 16px 10px 16px;
+    border-radius:3px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.mw-body #toc h2, .mw-body .toc h2, #togglelink, table a, .thumbcaption a {
+    font-family:'Lato',arial,sans-serif !important;
+}
+
+div#mw-head {
+    display: none;
+}
+
+div#mw-panel {
+    display: none;
+}
+
+div#content {
+    margin: auto;
+    width: 80%;
+    margin-top: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+div#mw-page-base {
+    display: none;
+}
+
+.mw-body h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.mw-body h4 {
+    font-size: 1.5em !important;
+    /* color: gray; */
+    font-weight: 500 !important;
+    padding-top: 20px;
+}
+
+html .thumbcaption {
+    line-height: 1.5;
+    padding-top: 10px;
+    font-size: 1.05em;
+}
+
+.thumb {
+    /* padding: 10px; */
+}
+
+div.thumbinner {
+    padding: 10px;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+div.thumb .thumbimage {
+    border: 0;
+    border-radius: 2px;
+}
+
+table {
+    font-size:.94em !important;
+    /* margin-left:20px !important; */
+    border-radius:3px;
+    padding: 8px 12px 8px 12px !important;
+}
